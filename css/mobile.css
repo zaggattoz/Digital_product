@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+
+  /* body {
+    background-color: yellow;
+  } */
+  
+  .products {
+    display: inherit;
+    height: auto;
+  }
+
+  .product {
+    margin-top: auto;
+  }
+
+  .main_section, {
+    padding: 4%;
+  }
+
+  .beneficios, .mentions {
+    display: inherit;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+            @media screen and (max-width: 600px) {
+              body {
+                border:10px solid red;
+              }
+            } */
+        

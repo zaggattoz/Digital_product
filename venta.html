@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <meta name="description" content="Este es un sitio de producto genial"> -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Brand</title>
+  <!-- <style>
+    @media screen and (max-width: 768px) {
+      body {
+        border:10px solid blue;
+      }
+    }
+</style> -->
+</head>
+
+<body>
+
+  <nav class="nav fadeInDown">
+    <div class="brand_image">
+      <a href="index.html">
+        <img src="images/logo.png" alt="logo">
+      </a>
+    </div>
+    <div class="nav_options">
+      <ul>
+        <li><a href="#">Faqs</a></li>
+        <li><a href="producto.html">Producto y descripcion</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-4">
+        <div class="modulo_pago">
+          <div class="modulo_pago_images">
+            <img src="images/box1.png">
+          </div>
+          <h3>Producto 1</h3>
+          <p>Miles de productos hay en el mercado, pero nada como una caja de gatitos confiables</p>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="modulo_pago">
+          <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CFXG3GA8GFQAE" method="POST">
+
+            <label for="name">Nombre</label>
+            <br>
+            <input type="text" placeholder="" name="name" class="data">
+            <br>
+
+            <label for="email">Mail</label>
+            <br>
+            <input type="email" placeholder="" name="email" class="data">
+            <br>
+
+            <label for="phone">Teléfono</label>
+            <br>
+            <input type="tel" placeholder="" name="phone" class="data">
+            <br>
+
+            <input type="submit" name="submit" class="main_button" value="Confirmar pago">
+
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+
+  <footer>
+  <div class="option">Terminos y condiciones</div>
+  <div class="option">contacto@brand.com</div>
+</footer>
+
+<script src="scripts/scrip.js"></script>
+</body>
+</html>
+
+
+            <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="business" value="seller@designerfotos.com">
+              <input type="hidden" name="item_name" value="hat">
+              <input type="hidden" name="item_number" value="123">
+              <input type="hidden" name="amount" value="15.00">
+              <input type="hidden" name="first_name" value="John">
+              <input type="hidden" name="last_name" value="Doe">
+              <input type="hidden" name="address1" value="9 Elm Street">
+              <input type="hidden" name="address2" value="Apt 5">
+              <input type="hidden" name="city" value="Berwyn">
+              <input type="hidden" name="state" value="PA">
+              <input type="hidden" name="zip" value="19312">
+              <input type="hidden" name="night_phone_a" value="610">
+              <input type="hidden" name="night_phone_b" value="555">
+              <input type="hidden" name="night_phone_c" value="1234">
+              <input type="hidden" name="email" value="jdoe@zyzzyu.com">
+              <input type="image" name="submit"
+                src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+                alt="PayPal - The safer, easier way to pay online">
+            </form> -->

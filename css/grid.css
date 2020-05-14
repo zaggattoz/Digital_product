@@ -1,0 +1,104 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-1 {
+  width: 8.333333333333333%;
+}
+.col-2 {
+  /* border: 1px solid blue; */
+  width: 16.6666666666666%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  /* border: 1px solid red; */
+  width: 33.33333333333333%;
+}
+.col-5 {
+  width: 41.66666666666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.333333333333333%;
+}
+.col-8 {
+  /* border: 1px solid green; */
+  width: 66.66666666666667%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.333333333333333%;
+}
+.col-11 {
+  width: 91.66666666666667%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {
+  padding: 10px;
+}
+
+
+/* .modulo_pago_img {
+  max-width: 100px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+} */
+
+
+/* img {
+  width: 100px;
+} */
+
+
+/* h2 {
+  margin: 100px;
+}
+
+.container_img {
+  text-align: center;
+}
+
+.container_img img {
+  width: 150px;
+  padding: 10%;
+}
+
+.container_text {
+  text-align: center;
+}
+
+.text {
+  text-align: justify;
+  padding: 10%;
+}
+
+footer {
+  margin-top: 100px;
+} */
+
+
+@media (max-width: 900px) {
+  .row {
+    display: inherit;
+  }
+  
+  .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {
+    width: 100%;
+  }
+
+}

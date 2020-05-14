@@ -1,0 +1,231 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* -------------------------------------------------------------------VARIABLES */
+
+:root {
+  --green-color:#11d6d2;
+  --greendark-color:#149693;
+  --white-color:white;
+  --black-color:#313131;
+  /* TIPOGRAFIA */
+  --normal12:12px;
+  /* ESPACIADO */
+  --space10:10px;
+  --space20:20px;
+  /* BOX SHADOW */
+  --box:0px 7px 9px #c1bcbc;
+}
+
+/* -------------------------------------------------------------------------NAV */
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--black-color);
+}
+
+p, label {
+  font-size: var(--normal12);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space10);
+  min-height: 60px;
+  background-color: var(--green-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--black-color);
+  font-size: var(--normal12);
+}
+
+nav a:hover{
+  color: var(--white-color);
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  padding-right: 20px;
+  list-style: none;
+}
+
+hr {
+  opacity: .2;
+}
+
+/* -----------------------------------------------------------------------MAIL   */
+
+.main_section {
+  padding: 15%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../images/curve.png");
+  padding: 15%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 95px;
+  background-size: cover;
+}
+
+.product {
+  /* border: 1px red solid; */
+  padding: var(--space10);
+  margin-top: -240px;
+}
+
+.product .content{
+  /* border: 1px blue solid; */
+  background-color: var(--white-color);
+  padding: var(--space10);
+  box-shadow: var(--box);
+}
+
+.img_content {
+  /* border: 1px green solid; */
+  text-align: center;
+}
+
+.main_button {
+  font-size: var(--normal12);
+  color: var(--white-color);
+  padding: var(--space10);
+  background-color: var(--green-color);
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.main_button:hover {
+  background-color: var(--greendark-color);
+}
+
+/* ------------------------------------------------------------BENEFICIO */
+
+.beneficios {
+  /* border: 1px solid green; */
+  display: flex;
+  padding: 10%;
+}
+
+.beneficio {
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio img {
+  max-height: 100px;
+}
+
+.beneficio_text {
+  text-align: justify;
+}
+
+.beneficio_text h3 {
+  text-align: center;
+}
+
+/* -------------------------------------------------------------MENTION */
+
+.mentions {
+  /* border: 1px solid green; */
+  display: flex;
+  padding: 5%;
+}
+
+.mention img {
+  width: 100%;
+}
+
+h3.mention_title {
+  text-align: center;
+}
+
+.mention {
+  padding: var(--space10);
+}
+
+.mention_content {
+  box-shadow: var(--box);
+}
+
+.mention .mention_text {
+  padding: var(--space10);
+}
+
+/* --------------------------------------------------------PRODUCTO */
+
+h2 {
+  margin: 100px;
+}
+
+.content img {
+  max-width: 200px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content_text {
+  padding: 8.5%;
+}
+
+/* -----------------------------------------------------VENTA */
+
+.modulo_pago {
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space20);
+}
+
+.modulo_pago_images {
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.data {
+  margin: var(--space10) 0;
+  width: 100%;
+  padding: 4px;
+  border: 1px solid var(--black-color);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button {
+  margin-top: var(--space20);
+}
+
+/* --------------------------------------------------FOOTER */
+
+footer {
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 1%;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  justify-content: space-between;
+}
+
+.contact a {
+  color: var(--greendark-color);
+}
